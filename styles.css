@@ -2294,3 +2294,381 @@ body.light-theme .result-text[data-coupons-loaded] b {
         max-width: 280px;          /* або 400px — підбери під себе */
     }
 }
+
+
+body.containerfull {
+  top: 50px;    
+}
+body, .fraim {
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: var(--text-color); /* Використовуємо змінну для кольору тексту */
+    background-color: #ffffff; /* Білий фон */
+    color: #000000; /* Чорний текст */
+}
+
+.fraim {
+  width: 390px;
+  height: 2780px;
+  background: #808080;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.fraim2 {
+  width: 100%;
+  height: 80px;
+  background: #FF7F50;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 0px;
+  z-index: 10;
+}
+.night_block {
+  background-color: #ffffff;
+  top: 164px;
+  left: 0;
+  width: auto;
+  height: auto;
+  margin-left: 20px;;
+  position: absolute;
+}
+
+
+.main_logo {
+  top: 60px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/main_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.main_logo_text {
+  top: 60px;
+  left: 30px;
+  width: 139px;
+  height: 15px;
+  color: #FFFFFF;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 2;
+  text-align: left;
+  z-index: 10;
+}
+.slogan_text {
+  top: 82px;
+  left: 25px;
+  width: 129px;
+  height: 25px;
+  color: #FFFFFF;
+  position: absolute;
+  text-shadow: 0.1px 0.1px 0.1px #000000;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+  z-index: 10;
+}
+
+.tgchnl_text {
+  top: 65px;
+  left: 215px;
+  width: 169px;
+  height: 21px;
+  color: #FFFFFF;
+  position: fixed;
+  text-shadow: 0.7px 0.7px 0.7px #000000;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+  z-index: 10;
+}
+
+.alicats_logo, .shara_logo, .coupons_logo {
+  display: block;
+  width: 30px;
+  height: 30px;
+  top: 88px;
+  box-shadow: 1px 1px 1px #FFFFFF;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  opacity: 1;
+  position: fixed;
+
+}
+.alicats_logo {
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/alicats_logo.png");
+  background-size: cover;
+  left: 270px;
+}
+.shara_logo {
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/shara_logo.png");
+  left: 310px;
+  background-size: cover;
+}
+.coupons_logo {
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/coupons_logo.png");
+  left: 350px;
+  background-size: cover;
+}
+
+.cat_img {
+  top: 72px;
+  left: 214px;
+  width: 50px;
+  height: 50px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/v661_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: fixed; /* Змінено з absolute на fixed */
+  overflow: hidden;
+  z-index: 10;
+}
+
+.COINS_BOT, .supercoins, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
+  top: 130px;
+  width: 47px;
+  height: 45px;
+  position: absolute;
+  z-index: 100;
+}
+.COINS_BOT {
+  background: url("https://ae01.alicdn.com/kf/S286367b7e48e4544a5e5452a1bfeed18L/800x800.gif");
+  left: 12px;
+  background-size: cover;
+
+}
+.supercoins {
+  background: url("https://cdn4.iconfinder.com/data/icons/discount-19/64/hot_sale-sale-discount-promotion-percentage-offer-commerce-shopping-1024.png");
+  left: 77px;
+  background-size: cover;
+}
+.PEDRO_BOT {
+  background: url("https://cdn.icon-icons.com/icons2/1429/PNG/512/icon-robots-16_98547.png");
+  left: 142px;
+  background-size: cover;
+}
+.COUPONS {
+  background: url("https://cdn3.iconfinder.com/data/icons/shopping-icons-14/128/08_Sales-1024.png");
+  left: 207px;
+  background-size: cover;
+}
+.NIGHT_SALE {
+  background: url("https://cdn3.iconfinder.com/data/icons/weather-forecast-flat-2/2010/Flat-29-512.png");
+  left: 272px;
+  background-size: cover;
+}
+.COINS_SALE {
+  background: url("https://cdn3.iconfinder.com/data/icons/weather-forecast-flat-2/2010/Flat-29-512.png");
+  left: 272px;
+  background-size: cover;
+}
+.actions {
+  background: url("https://cdn4.iconfinder.com/data/icons/business-and-finance-colorful-free-hand-drawn-set/100/sale_1-1024.png");
+  left: 337px;
+  background-size: cover;
+}
+
+
+ .coinsbot_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
+  top: 180px;
+  width: 45px;
+  height: 45px;
+  color: #696969;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 8px;
+  opacity: 1;
+  text-align: center;
+  z-index: 10;
+  background-size: cover;
+  }
+
+  .coinsbot_name {
+    left: 14px;
+}
+  .supercoins_name {
+    left: 79px;
+}
+  .pedrobot_name {
+    left: 144px;
+}
+   .coupons_name {
+    left: 209px;
+}
+    .night_name {
+    left: 275px;
+}
+    .coins_name {
+    left: 275px;
+}
+    .action_name {
+    left: 339px;
+}
+/* iPhone 8 390 x 844 */
+@media (min-width: 414px) and (max-width: 767px) {
+  .fraim {
+    width: 490px;
+    height: 2580px;
+  }
+  .main_logo {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* iPad mini 430 x 932 */
+@media (min-width: 767px) and (max-width: 908px) {
+  .fraim {
+    width: 910px;
+    height: 3850px;
+  }
+  .fraim2 {
+  width: 910px;
+  height: 170px;
+  background: #FF6347;
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.night_block {
+  top: 0;
+  left: 0;
+  width: 510px;
+  height: auto;
+  margin-left: 40px;
+  position: relative;
+  transform: scale(1.7); /* Масштабування на 150% */
+  transform-origin: top left; /* Задання точки масштабування */
+}
+
+  .elipse2 {
+    top: -75px;
+    left: -400px;
+    width: 1504px;
+    height: 258px;
+
+ }
+  .main_logo {
+    top: 38px;
+    left: 21px;
+    width: 60px;
+    height: 60px;
+  }
+  .main_logo_text {
+    top: 35px;
+    left: 90px;
+    width: 399px;
+    height: 10px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .slogan_text {
+    top: 70px;
+    left: 90px;
+    width: 299px;
+    height: 15px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .tgchnl_text {
+    top: 35px;
+    left: 490px;
+    width: 400px;
+    height: 21px;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 26px;;
+  }
+  .alicats_logo, .shara_logo, .coupons_logo {
+      top: 80px;
+      width: 70px;
+      height: 70px;
+      box-shadow: 3px 3px 3px #000000;
+      border-radius: 2px;
+  }
+  .alicats_logo {
+      left: 645px;
+      margin-left: -45px;
+  }
+  .shara_logo {
+      left: 715px;
+      margin-left: -20px;
+  }
+  .coupons_logo {
+      left: 790px;
+  }
+  .cat_img {
+    top: 52px;
+    left: 2;
+    width: 100px;
+    height: 100px;
+    margin-left: 280px;
+  }
+
+
+/* PC */
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .fraim {
+    width: 1054px;
+    height: 2350px;
+  }
+  .main_logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111111;
+        color: #ffffff;
+    }
+
+    .product-item {
+        background-color: #1e1e1e;
+        color: #ffffff;
+    }
+
+    .product-item p.link a {
+        background-color: #222;
+        color: #00aaff;
+        border-color: #00aaff;
+    }
+}
