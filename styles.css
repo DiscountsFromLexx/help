@@ -1112,6 +1112,15 @@ body.light-theme .result-text[data-coupons-loaded] b {
     .result-text .product-image {
         max-width: 90px;          /* або 400px — підбери під себе */
     }
+
+    .fraim {
+    width: 490px;
+    height: 2580px;
+  }
+  .main_logo {
+    width: 15px;
+    height: 15px;
+  }
      
 }
 
@@ -2538,17 +2547,6 @@ body, .fraim {
     .action_name {
     left: 339px;
 }
-/* iPhone 8 390 x 844 */
-@media (min-width: 414px) and (max-width: 767px) {
-  .fraim {
-    width: 490px;
-    height: 2580px;
-  }
-  .main_logo {
-    width: 15px;
-    height: 15px;
-  }
-}
 
 /* iPad mini 430 x 932 */
 @media (min-width: 767px) and (max-width: 908px) {
@@ -2642,7 +2640,7 @@ body, .fraim {
     height: 100px;
     margin-left: 280px;
   }
-
+}
 
 /* PC */
 @media (min-width: 1024px) and (max-width: 1600px) {
