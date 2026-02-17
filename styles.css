@@ -2296,8 +2296,9 @@ body.light-theme .result-text[data-coupons-loaded] b {
 }
 
 
+/* ЗАГОЛОВОК */
 body.containerfull {
-  top: 50px;    
+  top: 5px;    
 }
 body, .fraim {
     
