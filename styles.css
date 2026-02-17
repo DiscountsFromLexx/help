@@ -775,7 +775,7 @@ body.light-theme .feedback-btn span {
 }
 
 .instructions-text {
-    margin-top: 100px;
+    margin-top: 140px;
     font-size: 14px; /* було 14px; */
     font-weight: 100; /* було 200; */
     font-family: 'Montserrat', sans-serif;
@@ -2307,7 +2307,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
 
 /* ЗАГОЛОВОК */
 body.body-head {
-  top: 5px;    
+  top: -15px;    
 }
 body, .fraim {
     
