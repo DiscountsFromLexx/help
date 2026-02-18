@@ -1013,6 +1013,14 @@ body.light-theme .result-text[data-coupons-loaded] b {
         padding: 6px;
         width: 96%;
     }
+
+    .cat_img {
+        top: 42px;
+        left: 2px;
+        width: 100px;
+        height: 100px;
+        margin-left: 2px;
+      }
     
     .instruction-img {
         position: absolute;
@@ -2596,7 +2604,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       left: 790px;
   }
   .cat_img {
-    top: 52px;
+    top: 42px;
     left: 2px;
     width: 100px;
     height: 100px;
