@@ -1029,7 +1029,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
            
         width: 95px; /* було top: 60px; */
         height: 95px; /* було top: 60px; */
-        border-radius: 75%;
+        border-radius: 50px;
         z-index: 10;                   /* щоб не перекривалися іншими елементами, якщо потрібно */
     }
 
