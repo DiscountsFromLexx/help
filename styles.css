@@ -2337,7 +2337,7 @@ body, .fraim {
   background: #FF7F50;
   opacity: 1;
   position: absolute;
-  top: 50px;
+  top: 0px;
   left: 0;
   overflow: hidden;
   box-sizing: border-box;
