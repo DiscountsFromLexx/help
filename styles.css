@@ -1020,6 +1020,10 @@ body.light-theme .result-text[data-coupons-loaded] b {
         border-radius: 50px;
         z-index: 10;                   /* щоб не перекривалися іншими елементами, якщо потрібно */
     }
+
+    .instructions-text {
+        width: 95%;
+    }
     .slogan-text {
         margin-top: 70px;
         font-weight: 100;
