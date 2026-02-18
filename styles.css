@@ -2307,53 +2307,6 @@ body.light-theme .result-text[data-coupons-loaded] b {
 
 
 /* ЗАГОЛОВОК */
-body.body-head {
-  top: -85px;    
-}
-body, .fraim {
-    
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    color: var(--text-color); /* Використовуємо змінну для кольору тексту */
-    background-color: #ffffff; /* Білий фон */
-    color: #000000; /* Чорний текст */
-}
-
-.fraim {
-  width: 390px;
-  height: 2780px;
-  background: #808080;
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.fraim2 {
-  width: 100%;
-  height: 80px;
-  background: #FF7F50;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-  border-radius: 0px;
-  z-index: 10;
-}
-.night_block {
-  background-color: #ffffff;
-  top: 0px;
-  left: 0;
-  width: auto;
-  height: auto;
-  margin-left: 20px;;
-  position: absolute;
-}
 
 
 .main_logo {
@@ -2643,32 +2596,3 @@ body, .fraim {
   }
 }
 
-/* PC */
-@media (min-width: 1024px) and (max-width: 1600px) {
-  .fraim {
-    width: 1054px;
-    height: 2350px;
-  }
-  .main_logo {
-    width: 90px;
-    height: 90px;
-  }
-}
-
-  @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #111111;
-        color: #ffffff;
-    }
-
-    .product-item {
-        background-color: #1e1e1e;
-        color: #ffffff;
-    }
-
-    .product-item p.link a {
-        background-color: #222;
-        color: #00aaff;
-        border-color: #00aaff;
-    }
-}
