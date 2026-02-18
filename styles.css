@@ -566,7 +566,7 @@ body.light-theme .feedback-btn span {
 .instruction-img {
     position: absolute;
     top: 5px;
-    left: 50%;
+    left: 5px;
     transform: translateX(-50%);   /* саме це вирівнює центр картинки з центром контейнера */
     width: 60px;
     height: 60px;
@@ -1016,12 +1016,12 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     .instruction-img {
         position: absolute;
-        top: 2px;
-        left: 2px;
+        top: 5px;
+        left: 5px;
         transform: translateX(-50%);   /* саме це вирівнює центр картинки з центром контейнера */
         width: 95px; /* було top: 60px; */
         height: 95px; /* було top: 60px; */
-        border-radius: 50%;
+        border-radius: 10px;
         z-index: 10;                   /* щоб не перекривалися іншими елементами, якщо потрібно */
     }
 
