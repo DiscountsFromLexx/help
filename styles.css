@@ -1017,11 +1017,11 @@ body.light-theme .result-text[data-coupons-loaded] b {
     .instruction-img {
         position: absolute;
         top: 2px;
-        left: 50%;
+        left: 2px;
         transform: translateX(-50%);   /* саме це вирівнює центр картинки з центром контейнера */
-        width: 65px; /* було top: 60px; */
-        height: 65px; /* було top: 60px; */
-        border-radius: 50px;
+        width: 95px; /* було top: 60px; */
+        height: 95px; /* було top: 60px; */
+        border-radius: 50%;
         z-index: 10;                   /* щоб не перекривалися іншими елементами, якщо потрібно */
     }
 
