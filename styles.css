@@ -963,38 +963,38 @@ body.light-theme .result-text[data-coupons-loaded] b {
     /* Тепер позиціонуємо НАЗВИ праворуч від іконок (відступ ≈ 1 таб) */
     
     .allofcoins_name {
-        left: 77px + 55px;       /* left іконки + ширина іконки 47px + відступ 8px */
-        transform: translateX(8px); /* точний відступ праворуч */
+        left: 77px + 50px;       /* left іконки + ширина іконки 47px + відступ 8px */
+        transform: translateX(2px); /* точний відступ праворуч */
     }
     
     .supercoins_name {
-        left: 142px + 55px;
-        transform: translateX(8px);
+        left: 142px + 50px;
+        transform: translateX(2px);
     }
     
     .pedrobot_name {
-        left: 142px + 55px;
-        transform: translateX(8px);
+        left: 142px + 50px;
+        transform: translateX(2px);
     }
     
     .coupons_name {
-        left: 207px + 55px;
-        transform: translateX(8px);
+        left: 207px + 50px;
+        transform: translateX(2px);
     }
     
     .night_name {
-        left: 272px + 55px;
-        transform: translateX(8px);
+        left: 272px + 50px;
+        transform: translateX(2px);
     }
     
     .coins_name {
-        left: 272px + 55px;
-        transform: translateX(8px);
+        left: 272px + 50px;
+        transform: translateX(2px);
     }
     
     .action_name {
-        left: 337px + 55px;
-        transform: translateX(8px);
+        left: 337px + 50px;
+        transform: translateX(2px);
     }
          
 }
