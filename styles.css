@@ -491,7 +491,7 @@ input:checked + .slider:before {
 /* Контейнер кнопок — горизонтальний рядок */
 .top-buttons {
     position: absolute;
-    top: 70px;                    /* або 90px на мобілках */
+    top: 10px;                    /* або 90px на мобілках */
     left: 5px;
     z-index: 1000;
     display: flex;
@@ -842,19 +842,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
 }
 
 @media (min-width: 200px) and (max-width: 480px) and (orientation: portrait) {  
-    
-    body.in-telegram .container {
-        top: 50px; !important;
-        padding: 2px; /* було top: 6px; */
-        width: 96%;
-    }
-    body.in-telegram .top-buttons {
-        top: calc(90px + var(--tg-safe-area-top, 0px)) !important;
-    }
 
-    .body-head {
-        top: -40px !important; /* було 10px; */       
-    }
     
     /* Якщо клас .in-telegram відсутній (браузер на телефоні) — явно повертаємо 10px */
     .top-buttons {
@@ -864,7 +852,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
     
     .main-container {        
-        top: 10px; !important; /* було top: 200px; */
+        top: 30px; !important; /* було top: 200px; */
         padding: 4px;
         width: 100%;
     } 
