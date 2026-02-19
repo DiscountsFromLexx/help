@@ -1027,9 +1027,9 @@ body.light-theme .result-text[data-coupons-loaded] b {
         top: 15px;
         left: 65px;  /* transform: translateX(-50%); саме це вирівнює центр картинки з центром контейнера position: absolute; */
            
-        width: 95px; /* було top: 60px; */
-        height: 95px; /* було top: 60px; */
-        border-radius: 50px;
+        width: 35px; /* було top: 60px; */
+        height: 35px; /* було top: 60px; */
+        border-radius: 25%x;
         z-index: 10;                   /* щоб не перекривалися іншими елементами, якщо потрібно */
     }
 
