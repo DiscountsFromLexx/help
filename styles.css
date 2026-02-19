@@ -864,7 +864,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
     
     .main-container {        
-        top: -10px; /* було top: 200px; */
+        top: 10px; /* було top: 200px; */
         padding: 4px;
         width: 100%;
     } 
@@ -885,8 +885,8 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     .instruction-img {
         position: absolute;
-        top: 2px;
-        left: 15%;
+        top: 5px;
+        left: 10%;
         transform: translateX(-50%);
         width: 30px;
         height: 30px;
