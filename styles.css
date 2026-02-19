@@ -497,7 +497,7 @@ input:checked + .slider:before {
     display: flex;
     flex-direction: row;
     gap: -35px;                    /* відстань між кнопками 12px;*/
-    align-items: center;        /* вирівнюємо по низу, щоб підписи були на одному рівні */
+    align-items: right;        /* вирівнюємо по низу, щоб підписи були на одному рівні */
 }
 
 
