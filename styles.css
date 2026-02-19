@@ -491,7 +491,7 @@ input:checked + .slider:before {
 /* Контейнер кнопок — горизонтальний рядок */
 .top-buttons {
     position: absolute;
-    top: 90px;                    /* або 90px на мобілках */
+    top: 70px;                    /* або 90px на мобілках */
     left: 5px;
     z-index: 1000;
     display: flex;
@@ -566,7 +566,7 @@ body.light-theme .feedback-btn span {
 .instruction-img {
     position: absolute;
     top: 15px;
-    left: 5px;
+    left: 35px;
     transform: translateX(-50%);   /* саме це вирівнює центр картинки з центром контейнера */
     width: 60px;
     height: 60px;
@@ -575,8 +575,8 @@ body.light-theme .feedback-btn span {
 }
 
 .slogan-text {
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 10px;
+    font-size: 20px;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
     -webkit-tap-highlight-color: transparent;
@@ -596,145 +596,6 @@ body.light-theme .feedback-btn span {
 .block-form {
     margin-top: 50px; /* було 10px */
     padding: 15px; /* було 10px */
-}
-
-.checkbox-group {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* було repeat(auto-fit, minmax(140px, 1fr)); */
-    grid-template-rows: repeat(3, minmax(16px, 5px));   /* фіксовані 3 рядки 16px, auto  repeat(3, minmax(16px, 5px)); */
-    gap: 6px 8px; /* було gap: 6px 8px; */
-    padding: 12px 16px;
-    border: 1px solid rgba(30, 144, 255, 0.25);
-    border-radius: 10px;
-    background: rgba(20, 20, 50, 0.4);
-    margin: 6px 0 10px; /* було 12px 0 20px; */
-
-    /* Якщо елементів більше 6 — вони просто не помістяться, можна додати overflow */
-    overflow: auto;   /* або auto, якщо хочеш скрол */
-}
-
-/* label вже не потребує flex-властивостей */
-.checkbox-group label {
-    display: flex;
-    align-items: center;
-    gap: 4px;                     /* було 4px — трохи більше для зручності */
-    cursor: pointer;
-    user-select: none;
-    font-size: 10px;              /* 10px — занадто мало, повертаємо до читабельного */
-                                 /* повертаємо нормальний колір, #696969 погано читається */
-    padding: 4px 6px;            /* було 4px 6px — зменшуємо, щоб не було зайвого простору */
-    border-radius: 8px;           /* 50px робить дуже круглим — краще 8–12px */
-    transition: background 0.15s;
-    position: relative;
-    height: 1px;                 /* прибираємо height:1px — це ламало все */
-    min-height: 10px;             /* мінімальна висота для зручного натискання 16px */
-   
-}
-
-.checkbox-group label:hover,
-.checkbox-group label:active {
-    background: rgba(30, 144, 255, 0.12);
-}
-
-
-.input-group {
-    height: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    text-align: left;
-}
-.input-group label {
-    display: block;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-}
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 6px;
-    font-size: 10px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    transition: border-color 0.3s ease;
-}
-
-
-.result {
-    margin-top: 20px;
-    text-align: left;
-}
-
-.result label {
-    display: block;
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 8px;
-    color: #ffffff; /* або #000 для світлої теми */
-}
-
-.result-text {
-    width: 100%;
-    min-height: 180px;
-    padding: 16px;
-    background: rgba(30, 30, 50, 0.6);
-    border-radius: 12px;
-    border: none;
-    color: #e0e0ff; /* білий/світло-блакитний для темної теми */
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    white-space: pre-wrap;
-    overflow-y: auto;
-    box-shadow: inset 0 2px 8px rgba(0,0,0,0.3);
-}
-
-
-.submit-group {
-    display: flex;    
-    gap: 5px;
-    margin-top: 10px;
-}
-
-.submit-btn {
-    padding: 8px;
-    width: 50%;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-}
-.clear-btn {
-    padding: 8px;
-    width: 50%;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.submit-btn:hover, .clear-btn:hover {
-    transform: translateY(-2px);
-}
-
-.submit-btn:active, .clear-btn:active {
-    transform: translateY(0);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 .channels-text {
@@ -998,8 +859,8 @@ body.light-theme .result-text[data-coupons-loaded] b {
     /* Якщо клас .in-telegram відсутній (браузер на телефоні) — явно повертаємо 10px */
     .top-buttons {
         top: 20px !important; /* було 10px; */
-        left: 15px;
-        gap: -20px;
+        left: 2px;
+        gap: 2px;
     }
     
     .main-container {        
@@ -1037,7 +898,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         width: 95%;
     }
     .slogan-text {
-        margin-top: 30px;
+        margin-top: 10px;
         font-weight: 300;
         
     }
