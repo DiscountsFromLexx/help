@@ -846,7 +846,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     /* Якщо клас .in-telegram відсутній (браузер на телефоні) — явно повертаємо 10px */
     .top-buttons {
-        top: 15px !important; /* було 10px; */
+        top: 25px !important; /* було 10px; */
         left: 2px;
         gap: 2px;
     }
@@ -902,7 +902,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     
     .block-form {
-        margin-top: 20px; /* було 50px */
+        margin-top: 10px; /* було 50px */
         padding: 10px; /* було 10px */
     }
         
