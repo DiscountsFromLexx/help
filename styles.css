@@ -885,11 +885,11 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     .instruction-img {
         position: absolute;
-        top: 45px;
-        left: 10%;
+        top: 5px;
+        left: 30%;
         transform: translateX(-50%);
-        width: 105px;
-        height: 105px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         z-index: 10;
     }
