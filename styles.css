@@ -869,7 +869,16 @@ body.light-theme .result-text[data-coupons-loaded] b {
         width: 100px;
         height: 100px;
         margin-left: 2px;
+        background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/v661_11.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: fixed; /* Змінено з absolute на fixed */
+        overflow: hidden;
+        z-index: 10;
       }
+  
     
     .instruction-img {
         position: absolute;
