@@ -912,7 +912,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         font-weight: 200;
     }
 
-    .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
+    .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .HISTORY, .NIGHT_SALE, .COINS_SALE, .actions {
       top: 32px;
       width: 47px;
       height: 45px;
@@ -935,7 +935,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       left: 142px;
       background-size: cover;
     }
-    .COUPONS {
+    .HISTORY {
       background: url("https://raw.githubusercontent.com/DiscountsFromLexx/Pedro_telegram_app/main/img/history.png");
       left: 207px;
       background-size: cover;
@@ -955,7 +955,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       left: 337px;
       background-size: cover;
     }
- .coinsbot_name, .allofcoins_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
+ .coinsbot_name, .allofcoins_name, .supercoins_name, .pedrobot_name, .history_name, .night_name, .action_name, .coins_name {
       top: 82px;
       width: 45px;
       height: 45px;
@@ -978,7 +978,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       .pedrobot_name {
         left: 144px;
     }
-       .coupons_name {
+       .history_name {
         left: 209px;
     }
         .night_name {
