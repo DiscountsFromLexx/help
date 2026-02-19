@@ -947,7 +947,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
 
 
- .coinsbot_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
+ .coinsbot_name, .allofcoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
       top: 82px;
       width: 45px;
       height: 45px;
@@ -965,7 +965,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       .allofcoins_name {
         left: 79px;
     }
-      .supercoins_name {
+      .allofcoins_name {
         left: 144px;
     }
       .pedrobot_name {
@@ -2229,7 +2229,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
 }
 
 
- .coinsbot_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
+ .coinsbot_name, .allofcoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
   top: 180px;
   width: 45px;
   height: 45px;
@@ -2247,7 +2247,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
   .coinsbot_name {
     left: 14px;
 }
-  .supercoins_name {
+  .allofcoins_name {
     left: 79px;
 }
   .pedrobot_name {
