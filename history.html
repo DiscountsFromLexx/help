@@ -3,77 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>Історія та цікаві факти про AliExpress — Педро помічник</title>
+    <title>Telegram Mini App - Педро помічник</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css"> <!-- якщо стилі в папці assets/css -->
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            line-height: 1.7;
-            margin: 0;
-            padding: 0;
-            background: #f8f9fa;
-            color: #333;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 30px 20px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .header img {
-            width: 100%;
-            max-width: 600px;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 2.2rem;
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        h2 {
-            font-size: 1.6rem;
-            color: #3498db;
-            margin-top: 40px;
-            margin-bottom: 15px;
-        }
-        .fact {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            margin-bottom: 20px;
-            border-left: 5px solid #3498db;
-        }
-        .back-btn {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 12px 28px;
-            background: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: 500;
-            transition: background 0.3s;
-        }
-        .back-btn:hover {
-            background: #2980b9;
-        }
-        @media (max-width: 600px) {
-            h1 { font-size: 1.8rem; }
-            .header img { max-width: 100%; }
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:sans-serif,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Додаємо Telegram Web Apps SDK -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    
 </head>
+
+  
 <body class="light-theme">
 
+    <div class="top-buttons">
+        <a href="https://t.me/ali_coins_official_bot" target="_blank">
+        <div class="ALL_OF_COINS"></div>
+        </a>
+        <span class="allofcoins_name">ВСЕ ПРО МОНЕТИ</span>
+
+        <a href="https://s.click.aliexpress.com/e/_Dm40l0X" target="_blank">
+        <div class="SUPERCOINS"></div>
+        </a>
+        <span class="supercoins_name">СУПЕР МОНЕТКИ</span>
+
+        <a href="https://discountsfromlexx.github.io/help/history.html" target="_blank">
+        <div class="HISTORY"></div>
+        </a>
+        <span class="history_name">ІСТОРІЯ ТА ФАКТИ</span>
+
+        
+
+        <a href="https://discountsfromali.github.io/evening-sale/" target="_blank">
+        <div class="COINS_SALE"></div>
+        </a>
+        <span class="coins_name">МОНЕТІ ЗНИЖКИ</span>
+
+        <a href="https://s.click.aliexpress.com/e/_DdEnMqr" target="_blank">
+        <div class="actions"></div>
+        </a>
+        <span class="action_name">АКЦІЇ</span>
+
+    </div>
+    <script>
+            window.addEventListener('scroll', function() {
+              var catLogo = document.getElementById('catLogo');
+              if (window.scrollY >= 125) {
+                catLogo.style.left = '333px'; // було 333px
+                catLogo.style.top = '162px'; // початкова позиція 62px
+              } else {
+                catLogo.style.left = '4px';  // було 214px
+                catLogo.style.top = '68px'; // початкова позиція 42px
+              }
+            });
+          </script>
+    <div class="main-container"> 
+        
+
+
+        <div class="cat_img" id="catLogo"></div>
+
+          
+
+            <div class="instruction-img">
+            <img src="https://raw.githubusercontent.com/DiscountsFromAli/X-CUBOT/main/images/pedro.jpeg" class="instruction-img">
+            </div>
+        <div class="slogan-text" id="instructions">シ Педро помічник - ділить ціни на три!</div>
     <div class="container">
         <div class="header">
             <img src="https://lh7-rt.googleusercontent.com/sitesz/AClOY7qGi8niK7VVks6zMOG-WlSdmTARu3DkpDTHdCVpatFb1LtWnO4dCskMCf_cXK1CHgsVQNsVzBeUQqO1LHXGMOcNjIvcDyC95cEXPQOhQCsJdfHGr9RgHoeH7HBSC5L5mcqEEysUotlpobTBMgz25WrLEZrQjvHddjs-2NYt6fAwCKEoj7ryyfEfJtcqLb6O?key=Ya1rYl9uui18sjzuWAuiPQ" alt="AliExpress історія">
@@ -109,7 +104,7 @@
         <div class="fact">
             <p>AliExpress має одну з найпотужніших систем відгуків у світі — мільйони покупців щодня залишають фото, відео та детальні відгуки.</p>
             <p>Це допомагає іншим швидко зрозуміти якість товару, надійність продавця та реальний розмір/колір. Завжди читайте відгуки з фото — це найкращий спосіб уникнути розчарувань.</p>
-        </div>
+    </div>
 
         <p style="text-align: center; margin-top: 50px; font-size: 1.2rem; color: #555;">
             Це лише кілька аспектів того, що робить AliExpress унікальним та цікавим для мільйонів покупців у всьому світі.<br>
@@ -129,6 +124,6 @@
             ">← Повернутися на головну</a>
         </div>
     </div>
-
+   </div>
 </body>
 </html>
