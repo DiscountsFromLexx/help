@@ -858,7 +858,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     /* Якщо клас .in-telegram відсутній (браузер на телефоні) — явно повертаємо 10px */
     .top-buttons {
-        top: 10px !important; /* було 10px; */
+        top: -10px !important; /* було 10px; */
         left: 2px;
         gap: 2px;
     }
@@ -951,7 +951,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     
     .block-form {
-        margin-top: 50px; /* було 50px */
+        margin-top: 60px; /* було 50px */
         padding: 10px; /* було 10px */
     }
         
@@ -960,36 +960,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         font-size: 18px;
         font-weight: 200;
     }
-    .input-group input {
-        font-size: 10px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-    }
-     .input-group label {
-        display: block;
-        font-size: 8px;
-        font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 2px;
-        margin-bottom: 5px;
-    }
-    .result input {
-        font-size: 10px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-    }
-     .result label {
-        display: block;
-        font-size: 8px;
-        font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 2px;
-        margin-bottom: 5px;
-    }
-
-    .result-text .product-image {
-        max-width: 90px;          /* або 400px — підбери під себе */
-    }
+    
 
     .fraim {
     width: 490px;
