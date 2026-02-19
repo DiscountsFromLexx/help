@@ -914,14 +914,14 @@ body.light-theme .result-text[data-coupons-loaded] b {
         font-size: 18px;
         font-weight: 200;
     }
-    .COINS_BOT, .supercoins, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
+    .ALL_OF_COINS, .supercoins, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
       top: 42px;
       width: 47px;
       height: 45px;
       position: absolute;
       z-index: 100;
     }
-    .COINS_BOT {
+    .ALL_OF_COINS {
       background: url("https://ae01.alicdn.com/kf/S286367b7e48e4544a5e5452a1bfeed18L/800x800.gif");
       left: 77px;
       background-size: cover;
@@ -2196,14 +2196,14 @@ body.light-theme .result-text[data-coupons-loaded] b {
   z-index: 10;
 }
 
-.COINS_BOT, .supercoins, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
+.ALL_OF_COINS, .supercoins, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
   top: 130px;
   width: 47px;
   height: 45px;
   position: absolute;
   z-index: 100;
 }
-.COINS_BOT {
+.ALL_OF_COINS {
   background: url("https://ae01.alicdn.com/kf/S286367b7e48e4544a5e5452a1bfeed18L/800x800.gif");
   left: 77px;
   background-size: cover;
