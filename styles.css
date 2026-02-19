@@ -873,7 +873,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     .instruction-img {
         position: absolute;
-        top: 10px;
+        top: 5px;
         left: 15%;
         transform: translateX(-50%);
         width: 60px;
@@ -893,7 +893,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     
     .block-form {
-        margin-top: 60px; /* було 50px */
+        margin-top: 40px; /* було 50px */
         padding: 10px; /* було 10px */
     }
         
