@@ -575,9 +575,9 @@ body.light-theme .feedback-btn span {
 }
 
 .slogan-text {
-    margin-top: 60px;
-    font-size: 10px;
-    font-weight: 200;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
     font-family: 'Montserrat', sans-serif;
     -webkit-tap-highlight-color: transparent;
     letter-spacing: 2px;
@@ -1037,8 +1037,8 @@ body.light-theme .result-text[data-coupons-loaded] b {
         width: 95%;
     }
     .slogan-text {
-        margin-top: 70px;
-        font-weight: 100;
+        margin-top: 30px;
+        font-weight: 300;
         
     }
     .slider:before {        
