@@ -886,7 +886,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     .instruction-img {
         position: absolute;
         top: 45px;
-        left: 50%;
+        left: 10%;
         transform: translateX(-50%);
         width: 105px;
         height: 105px;
