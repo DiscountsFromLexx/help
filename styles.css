@@ -902,6 +902,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         font-size: 18px;
         font-weight: 200;
     }
+
     .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
       top: 32px;
       width: 47px;
@@ -913,7 +914,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       background: url("https://ae01.alicdn.com/kf/S286367b7e48e4544a5e5452a1bfeed18L/800x800.gif");
       left: 77px;
       background-size: cover;
-    
+   
     }
     .SUPERCOINS {
       background: url("https://cdn4.iconfinder.com/data/icons/discount-19/64/hot_sale-sale-discount-promotion-percentage-offer-commerce-shopping-1024.png");
@@ -945,56 +946,40 @@ body.light-theme .result-text[data-coupons-loaded] b {
       left: 337px;
       background-size: cover;
     }
-
-
-     .coinsbot_name, .allofcoins_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
-        position: absolute;
-        top: 32px;               /* той самий рівень, що й іконки */
-        color: #696969;
-        font-family: Montserrat;
-        font-weight: 500;
-        font-size: 9px;          /* трохи збільшено для читабельності */
-        text-align: center;
-        z-index: 10;
-        white-space: nowrap;     /* не переносити текст */
-        opacity: 1;
+ .coinsbot_name, .allofcoins_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
+      top: 82px;
+      width: 45px;
+      height: 45px;
+      color: #696969;
+      position: absolute;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 8px;
+      opacity: 1;
+      text-align: center;
+      z-index: 10;
+      background-size: cover;
+  }
+      .allofcoins_name {
+        left: 79px;
     }
-    
-    /* Тепер позиціонуємо НАЗВИ праворуч від іконок (відступ ≈ 1 таб) */
-    
-    .allofcoins_name {
-        left: 77px + 50px;       /* left іконки + ширина іконки 47px + відступ 8px */
-        transform: translateX(2px); /* точний відступ праворуч */
+      .supercoins_name {
+        left: 144px;
     }
-    
-    .supercoins_name {
-        left: 142px + 50px;
-        transform: translateX(2px);
+      .pedrobot_name {
+        left: 144px;
     }
-    
-    .pedrobot_name {
-        left: 142px + 50px;
-        transform: translateX(2px);
+       .coupons_name {
+        left: 209px;
     }
-    
-    .coupons_name {
-        left: 207px + 50px;
-        transform: translateX(2px);
+        .night_name {
+        left: 275px;
     }
-    
-    .night_name {
-        left: 272px + 50px;
-        transform: translateX(2px);
+        .coins_name {
+        left: 275px;
     }
-    
-    .coins_name {
-        left: 272px + 50px;
-        transform: translateX(2px);
-    }
-    
-    .action_name {
-        left: 337px + 50px;
-        transform: translateX(2px);
+        .action_name {
+        left: 339px;
     }
          
 }
