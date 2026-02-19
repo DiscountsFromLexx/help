@@ -902,7 +902,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     
     .block-form {
-        margin-top: 40px; /* було 50px */
+        margin-top: 20px; /* було 50px */
         padding: 10px; /* було 10px */
     }
         
@@ -913,7 +913,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
 
     .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .HISTORY, .NIGHT_SALE, .COINS_SALE, .actions {
-      top: 32px;
+      top: 40px;
       width: 47px;
       height: 45px;
       position: absolute;
