@@ -873,8 +873,8 @@ body.light-theme .result-text[data-coupons-loaded] b {
     
     .instruction-img {
         position: absolute;
-        top: 5px;
-        left: 12%;
+        top: 10px;
+        left: 15%;
         transform: translateX(-50%);
         width: 60px;
         height: 60px;
@@ -903,7 +903,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         font-weight: 200;
     }
     .ALL_OF_COINS, .supercoins, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
-      top: 42px;
+      top: 32px;
       width: 47px;
       height: 45px;
       position: absolute;
@@ -948,7 +948,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
 
 
  .coinsbot_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
-      top: 92px;
+      top: 82px;
       width: 45px;
       height: 45px;
       color: #696969;
