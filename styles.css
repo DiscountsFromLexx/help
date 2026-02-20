@@ -861,6 +861,13 @@ body.light-theme .result-text[data-coupons-loaded] b {
         width: 100%;
     } 
 
+    .history-container {        
+        top: 65px; !important; /* було top: 30px; */
+        padding: 4px;
+        width: 98%;
+    
+    
+
     .container {
         top: 0px; !important;
         padding: 6px;
