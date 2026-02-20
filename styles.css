@@ -120,6 +120,7 @@ body.dark-theme .theme-label {
 /* Світлий режим (на основі наданого коду) */
 body.light-theme {
     background: #B0E0E6;  /*  було background: transparent; */
+    top: 10px;
 }
 
 body.light-theme .container {
