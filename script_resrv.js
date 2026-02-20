@@ -1,6 +1,9 @@
 
 
 
+
+
+
 // Генерація або отримання постійного UUID для користувача
 const getUserUUID = () => {
     const STORAGE_KEY = 'pedro_user_uuid';
@@ -94,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Відступ зверху для Mini App (щоб не перекривати панель Telegram)
         if (isTelegramMiniApp) {
             const safeTop = window.Telegram.WebApp.safeAreaInset?.top || 50;
-            modal.style.paddingTop = `${safeTop + 30}px`;
+            modal.style.paddingTop = `${safeTop + 10}px`;
             modal.style.paddingBottom = 'env(safe-area-inset-bottom)';
         }
     
@@ -102,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.createElement('button');
         closeBtn.innerHTML = '✕';
         closeBtn.style.position = 'fixed';
-        closeBtn.style.top = isTelegramMiniApp ? `${(window.Telegram.WebApp.safeAreaInset?.top || 50) + 10}px` : '5px';
+        closeBtn.style.top = isTelegramMiniApp ? `${(window.Telegram.WebApp.safeAreaInset?.top || 50) + 10}px` : '55px';
         closeBtn.style.right = '15px';
         closeBtn.style.background = 'rgba(0,0,0,0.7)';
         closeBtn.style.color = 'white';
