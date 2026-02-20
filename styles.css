@@ -923,6 +923,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     .ALL_OF_COINS {
       background: url("https://ae01.alicdn.com/kf/S286367b7e48e4544a5e5452a1bfeed18L/800x800.gif");
       left: 77px;
+      background-size: cover;
       
    
     }
