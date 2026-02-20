@@ -844,7 +844,10 @@ body.light-theme .result-text[data-coupons-loaded] b {
 
 @media (min-width: 200px) and (max-width: 480px) and (orientation: portrait) {  
 
-    
+    body.in-telegram {
+        top: 50px; !important;
+        
+    }
     /* Якщо клас .in-telegram відсутній (браузер на телефоні) — явно повертаємо 10px */
     .top-buttons {
         top: 25px !important; /* було 10px; */
