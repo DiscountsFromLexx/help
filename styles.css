@@ -916,7 +916,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         font-weight: 200;
     }
 
-    .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .HISTORY, .NIGHT_SALE, .COINS_SALE, .actions {
+    .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .history-btn, .NIGHT_SALE, .COINS_SALE, .actions {
       top: 40px;
       width: 40px;
       height: 40px;
@@ -941,7 +941,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       left: 142px;
       background-size: cover;
     }
-    .HISTORY {
+    .history-btn {
       background: url("https://raw.githubusercontent.com/DiscountsFromLexx/Pedro_telegram_app/main/img/history.png");
       left: 207px;
       background-size: cover;
