@@ -850,8 +850,8 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
     /* Якщо клас .in-telegram відсутній (браузер на телефоні) — явно повертаємо 10px */
     .top-buttons {
-        top: 25px !important; /* було 10px; */
-        left: 2px;
+        top: 30px !important; /* було 10px; */
+        left: 35px;
         gap: 2px;
     }
     
