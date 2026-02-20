@@ -638,7 +638,7 @@ body.light-theme .feedback-btn span {
 }
 
 .instructions-text {
-    margin-top: 180px;
+    margin-top: 80px;
     left: 4px;
     font-size: 14px; /* було 14px; */
     font-weight: 100; /* було 200; */
