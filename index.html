@@ -24,6 +24,20 @@
             <div class="slogan-text">                        
                         <p>シ Педро помічник - ділить ціни на три!</p>
             </div>
+
+        <script>
+            window.addEventListener('scroll', function() {
+              var catLogo = document.getElementById('catLogo');
+              if (window.scrollY >= 125) {
+                catLogo.style.left = '333px'; // було 333px
+                catLogo.style.top = '162px'; // початкова позиція 62px
+              } else {
+                catLogo.style.left = '4px'; // було 214px
+                catLogo.style.top = '68px'; // початкова позиція 42px
+              }
+            });
+          </script>
+            
             <div class="top-buttons">
                 <button type="button" class="coupons-btn">
                     <img src="https://raw.githubusercontent.com/DiscountsFromLexx/Pedro_telegram_app/main/img/coupon.png" alt="COUPONS" class="btn-icon">
