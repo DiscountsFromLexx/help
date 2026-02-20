@@ -862,7 +862,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     } 
 
     .history-container {        
-        top: 65px; !important; /* було top: 30px; */
+        margin-top: 65px; !important; /* було top: 30px; */
         padding: 4px;
         width: 98%;
     
