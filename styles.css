@@ -31,7 +31,7 @@ body.dark-theme .instruction-btn {
 }
 
 
-body.dark-theme .coupons-btn {
+body.dark-theme .history-btn {
     background: transparent;
     font-weight: 100;
     color: #FFFFFF;
@@ -503,7 +503,7 @@ input:checked + .slider:before {
 
 
 /* Стилі для кнопок */
-.coupons-btn,
+.history-btn,
 .instruction-btn,
 .web-btn,
 .feedback-btn {
@@ -526,14 +526,14 @@ input:checked + .slider:before {
     text-transform: uppercase;
 }
 /* Світла тема — чорний текст */
-body.light-theme .coupons-btn span,
+body.light-theme .history-btn span,
 body.light-theme .instruction-btn span,
 body.light-theme .web-btn span,
 body.light-theme .feedback-btn span {
     color: #000000 !important;
 }
 
-.coupons-btn:hover,
+.history-btn:hover,
 .instruction-btn:hover,
 .web-btn:hover,
 .feedback-btn:hover {
@@ -551,7 +551,7 @@ body.light-theme .feedback-btn span {
 }
 
 /* Підпис під іконкою */
-.coupons-btn span,
+.history-btn span,
 .instruction-btn span,
 .web-btn span,
 .feedback-btn span {
@@ -1043,7 +1043,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         border-radius: 16px;
     }
 
-    .coupons-btn,
+    .history-btn,
     .instruction-btn,
     .web-btn,
     .feedback-btn {
