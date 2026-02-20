@@ -929,7 +929,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         font-weight: 200;
     }
 
-    .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .history-btn, .NIGHT_SALE, .COINS_SALE, .actions {
+    .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .NIGHT_SALE, .COINS_SALE, .actions {
       top: 50px;
       width: 40px;
       height: 40px;
@@ -954,11 +954,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       left: 142px;
       background-size: cover;
     }
-    .history-btn {
-      background: url("https://raw.githubusercontent.com/DiscountsFromLexx/Pedro_telegram_app/main/img/history.png");
-      left: 207px;
-      background-size: cover;
-    }
+    
     .NIGHT_SALE {
       background: url("https://cdn3.iconfinder.com/data/icons/weather-forecast-flat-2/2010/Flat-29-512.png");
       left: 272px;
@@ -975,7 +971,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       background-size: cover;
     }
     
- .coinsbot_name, .allofcoins_name, .supercoins_name, .pedrobot_name, .history_name, .night_name, .action_name, .coins_name {
+ .coinsbot_name, .allofcoins_name, .supercoins_name, .pedrobot_name, .night_name, .action_name, .coins_name {
       top: 97px;
       width: 45px;
       height: 45px;
@@ -998,9 +994,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
       .pedrobot_name {
         left: 144px;
     }
-       .history_name {
-        left: 209px;
-    }
+       
         .night_name {
         left: 275px;
     }
