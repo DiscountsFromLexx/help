@@ -917,7 +917,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
 
     .ALL_OF_COINS, .SUPERCOINS, .PEDRO_BOT, .history-btn, .NIGHT_SALE, .COINS_SALE, .actions {
-      top: 40px;
+      top: 50px;
       width: 40px;
       height: 40px;
       position: absolute;
@@ -963,7 +963,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
     
  .coinsbot_name, .allofcoins_name, .supercoins_name, .pedrobot_name, .history_name, .night_name, .action_name, .coins_name {
-      top: 87px;
+      top: 97px;
       width: 45px;
       height: 45px;
       color: #696969;
