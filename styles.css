@@ -844,7 +844,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
 
 @media (min-width: 200px) and (max-width: 480px) and (orientation: portrait) {  
 
-    body.in-telegram {
+    body.in-telegram .light-theme {
         top: 50px; !important;
         
     }
