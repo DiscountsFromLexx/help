@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     
     // history
-    // Новий обробник: відкриває модальне вікно з https://discountsfromlexx.github.io/help/history.html
+    // ─── Кнопка ІСТОРІЯ ТА ФАКТИ ──────────────────────────────────────────────
     document.querySelector('.history-btn')?.addEventListener('click', () => {
         const helpUrl = 'https://discountsfromlexx.github.io/help/history.html';
     
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.createElement('button');
         closeBtn.innerHTML = '✕';
         closeBtn.style.position = 'fixed';
-        closeBtn.style.top = isTelegramMiniApp ? `${(window.Telegram.WebApp.safeAreaInset?.top || 50) + 10}px` : '55px';
+        closeBtn.style.top = isTelegramMiniApp ? `${(window.Telegram.WebApp.safeAreaInset?.top || 50) + 10}px` : '15px';
         closeBtn.style.right = '15px';
         closeBtn.style.background = 'rgba(0,0,0,0.7)';
         closeBtn.style.color = 'white';
@@ -143,6 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
         resultText.innerHTML = '<span style="color:#00ff88;">Історія відкрита у повноекранному вікні ↓</span>';
         resultText.style.color = 'inherit';
     });
+
     
     window.scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
