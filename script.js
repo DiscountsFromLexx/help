@@ -76,7 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.history-btn')?.addEventListener('click', () => {
         const helpUrl = 'https://discountsfromlexx.github.io/help/history.html';
     
-        // Створюємо модальне вікно
+        // Спочатку видаляємо ВСІ попередні модалки (якщо вони є)
+        document.querySelectorAll('#help-modal, #cainiao-modal').forEach(modal => modal.remove());
+    
+        // Створюємо нову модалку
         const modal = document.createElement('div');
         modal.id = 'help-modal';
         modal.style.position = 'fixed';
@@ -88,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.style.justifyContent = 'center';
         modal.style.overflow = 'auto';
     
-        // Відступ зверху для Mini App (щоб не перекривати панель Telegram)
+        // Відступ зверху для Mini App
         if (isTelegramMiniApp) {
             const safeTop = window.Telegram.WebApp.safeAreaInset?.top || 50;
             modal.style.paddingTop = `${safeTop + 10}px`;
@@ -99,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeBtn = document.createElement('button');
         closeBtn.innerHTML = '✕';
         closeBtn.style.position = 'fixed';
-        closeBtn.style.top = isTelegramMiniApp ? `${(window.Telegram.WebApp.safeAreaInset?.top || 50) + 10}px` : '55px';
+        closeBtn.style.top = isTelegramMiniApp ? `${(window.Telegram.WebApp.safeAreaInset?.top || 50) + 10}px` : '15px';
         closeBtn.style.right = '15px';
         closeBtn.style.background = 'rgba(0,0,0,0.7)';
         closeBtn.style.color = 'white';
@@ -115,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Контейнер для iframe
         const iframeContainer = document.createElement('div');
         iframeContainer.style.width = '100%';
-        iframeContainer.style.maxWidth = '1000px'; // обмеження для десктопу
+        iframeContainer.style.maxWidth = '1000px';
         iframeContainer.style.height = isTelegramMiniApp ? 'calc(100vh - 60px)' : '90vh';
         iframeContainer.style.borderRadius = '16px';
         iframeContainer.style.overflow = 'hidden';
@@ -139,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.target === modal) modal.remove();
         };
     
-        // Повідомлення в resultText (опціонально)
+        // Повідомлення в resultText
         resultText.innerHTML = '<span style="color:#00ff88;">Історія відкрита у повноекранному вікні ↓</span>';
         resultText.style.color = 'inherit';
     });
