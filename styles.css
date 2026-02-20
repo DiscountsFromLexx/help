@@ -867,7 +867,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
         width: 98%;
 
     .history-buttons {        
-        margin-top: 35px; !important; /* було top: 30px; */
+        margin-top: 65px; !important; /* було top: 30px; */
         padding: 4px;
         width: 98%;
     
