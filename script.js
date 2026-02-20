@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Відступ зверху для Mini App (щоб не перекривати панель Telegram)
         if (isTelegramMiniApp) {
             const safeTop = window.Telegram.WebApp.safeAreaInset?.top || 50;
-            modal.style.paddingTop = `${safeTop + 10}px`;
+            modal.style.paddingTop = `${safeTop + 30}px`;
             modal.style.paddingBottom = 'env(safe-area-inset-bottom)';
         }
     
