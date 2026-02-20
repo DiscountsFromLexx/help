@@ -881,8 +881,8 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
 
     .cat_img {
-        top: 5px;
-        left: 2px;
+        top: 75px;
+        left: 12%;
         width: 55px;
         height: 55px;
         margin-left: 2px;
