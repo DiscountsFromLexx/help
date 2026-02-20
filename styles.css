@@ -856,7 +856,7 @@ body.light-theme .result-text[data-coupons-loaded] b {
     }
     
     .main-container {        
-        top: 5px; !important; /* було top: 30px; */
+        top: 25px; !important; /* було top: 30px; */
         padding: 4px;
         width: 100%;
     } 
